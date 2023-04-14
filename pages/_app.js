@@ -1,5 +1,18 @@
-import '@/styles/globals.css'
+import '../styles/normalize.css';
+import '../styles/global.css';
+import {Poppins} from 'next/font/google';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: '400',
+});
+
+
+
+export default function App({Component, pageProps}) {
+  return (
+    <main className={poppins.className}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
