@@ -49,3 +49,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+h1 {
+  font-size: var(--s1);
+}

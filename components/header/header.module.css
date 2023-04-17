@@ -1,0 +1,13 @@
+.titleFont {
+  color: var(--appWhite);
+  text-decoration: double underline;
+  text-decoration-color: var(--appPurple);
+  text-decoration-thickness: from-font;
+}
+
+.raidFont {
+  color: var(--appYellow);
+  text-decoration: underline;
+  text-decoration-color: var(--appYellow);
+  text-decoration-thickness: from-font;
+}

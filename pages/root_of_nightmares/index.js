@@ -1,10 +1,12 @@
 import Card from '@/components/card/Card';
 import CardList from '@/components/cardList/CardList';
 import Layout from '@/components/layout/Layout';
+import Header from '@/components/header/Header';
 
 export default function RootOfNightmares() {
   return (
     <Layout title="Root of Nightmares" description={'Destiny 2 raid encounter maps'}>
+      <Header raid="Root of Nightmares" />
         <CardList>
           <Card text="1. Cataclysm" link="/root_of_nightmares/1_cataclysm"></Card>
           <Card text="2. Scission" link="/root_of_nightmares/2_scission"></Card>
