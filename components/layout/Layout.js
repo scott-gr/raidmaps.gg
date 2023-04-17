@@ -1,5 +1,6 @@
 import styles from './layout.module.css';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Layout({children, title, description,}) {
   return (
@@ -10,8 +11,7 @@ export default function Layout({children, title, description,}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>{title ==="RaidMaps.gg" ? 'RaidMaps.gg': 'RaidMaps.gg / ' + title}</h1>
-
+      {title ==="RaidMaps.gg" ? <h1 className={styles.titleFont}>{title}</h1> : <h1><Link className={styles.titleFont} href='/'>RaidMaps.gg</Link>{' / ' + title}</h1>}
       {children}
     </div>
   );

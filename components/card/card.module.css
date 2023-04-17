@@ -1,0 +1,4 @@
+.card {
+  padding: var(--s1);
+  border: 3px solid var(--appPurple);
+}

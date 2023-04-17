@@ -1,20 +1,21 @@
 import Link from 'next/link';
 import Layout from '../components/layout/Layout';
+import CardList from '@/components/cardList/CardList';
 import styles from './home.module.css'
+import Card from '@/components/card/Card';
 
 export default function Home() {
   return (
     <Layout title="RaidMaps.gg" description={'Destiny 2 raid encounter maps'}>
-      <main className={styles.}>
-        <Link href="/root_of_nightmares">Root of Nightmares</Link>
-        {/* eslint-disable-next-line react/no-unescaped-entities */}
-        <Link href="/kings_fall">King's Fall</Link>
-        <Link href="/vow_of_the_disciple">Vow of the Disciple</Link>
-        <Link href="/deep_stone_crypt">Deep Stone Crypt</Link>
-        <Link href="/garden_of_salvation">Garden of Salvation</Link>
-        <Link href="/last_wish">Last Wish</Link>
-        <Link href="/vault_of_glass">Vault of Glass</Link>
-      </main>
+      <CardList>
+          <Card text='Root of Nightmares' link='/root_of_nightmares' ></Card>
+          <Card text='Kings Fall' link='/kings_fall' ></Card>
+          <Card text='Vow of the Disciple' link='/vow_of_the_disciple' ></Card>
+          <Card text='Deep Stone Crypt' link='/deep_stone_crypt' ></Card>
+          <Card text='Garden of Salvation' link='/garden_of_salvation' ></Card>
+          <Card text='Last Wish' link='/last_wish' ></Card>
+          <Card text='Vault of Glass' link='/vault_of_glass' ></Card>
+      </CardList>
     </Layout>
   );
 }

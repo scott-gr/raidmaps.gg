@@ -28,7 +28,7 @@
 }
 html {
   background-color: var(--appBlack);
-  color: var(--appPink);
+  color: var(--appYellow);
   font-size: var(--s0);
   font-weight: 400;
 }
@@ -42,4 +42,10 @@ button {
 }
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }

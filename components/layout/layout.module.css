@@ -2,3 +2,16 @@
   margin: 0;
   padding:var(--s0);
 }
+
+.centered {
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: 60rem;
+}
+
+.titleFont {
+  color: var(--appWhite);
+  text-decoration: wavy underline;
+  text-decoration-color: var(--appYellow);
+  text-decoration-thickness: from-font;
+}
