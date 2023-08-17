@@ -7,10 +7,42 @@
 }
 
 .raidFont {
-  color: var(--appYellow);
   text-decoration: underline;
   text-transform: lowercase;
-  text-decoration-color: var(--appYellow);
   text-decoration-thickness: from-font;
 }
+
+.raidFont[alt="Last_Wish"] {
+  color: var(--appPurple);
+  text-decoration-color: var(--appPurple);
+}
+.raidFont[alt="Garden_of_Salvation"] {
+  color: var(--appDarkYellow);
+  text-decoration-color: var(--appDarkYellow);
+}
+.raidFont[alt="Vault_of_Glass"] {
+  color: var(--appLightBlue);
+  text-decoration-color: var(--appLightBlue);
+}
+.raidFont[alt="Deep_Stone_Crypt"] {
+  color: var(--appYellow);
+  text-decoration-color: var(--appYellow);
+}
+.raidFont[alt="Root_of_Nightmares"]{
+  color: var(--appPink);
+  text-decoration-color: var(--appPink);
+}
+.raidFont[alt="Vow_of_the_Disciple"]{
+  color: var(--appDarkRed);
+  text-decoration-color: var(--appDarkRed);
+}
+.raidFont[alt="Kings_Fall"]{
+  color: var(--appGreen);
+  text-decoration-color: var(--appGreen);
+}
+.raidFont[alt="Redacted"]{
+  color: var(--appOrange);
+  text-decoration-color: var(--appOrange);
+}
+
 

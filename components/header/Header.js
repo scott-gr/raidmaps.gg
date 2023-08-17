@@ -9,7 +9,11 @@ export default function Header({raid, raidLink, encounter}) {
   );
 
   if (raid && encounter) {
-    let raidTitle = <Link className={styles.raidFont} href={raidLink}>{raid}</Link>;
+    let raidTitle = (
+      <Link className={styles.raidFont} href={raidLink} alt={raid}>
+        {raid}
+      </Link>
+    );
 
     return (
       <h1>
@@ -17,7 +21,11 @@ export default function Header({raid, raidLink, encounter}) {
       </h1>
     );
   } else if (raid && !encounter) {
-    let raidTitle = <span className={styles.raidFont}>{raid}</span>
+    let raidTitle = (
+      <span className={styles.raidFont} alt={raid}>
+        {raid}
+      </span>
+    );
     return (
       <h1>
         {mainTitle}
