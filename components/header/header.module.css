@@ -1,13 +1,16 @@
 .titleFont {
-  color: var(--appWhite);
+  color: var(--appBeige);
   text-decoration: double underline;
-  text-decoration-color: var(--appPurple);
+  text-decoration-color: var(--appRed);
   text-decoration-thickness: from-font;
+  text-transform: lowercase;
 }
 
 .raidFont {
   color: var(--appYellow);
   text-decoration: underline;
+  text-transform: lowercase;
   text-decoration-color: var(--appYellow);
   text-decoration-thickness: from-font;
 }
+

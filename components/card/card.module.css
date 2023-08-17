@@ -1,4 +1,29 @@
+.card,
+.titleCard {
+  flex-basis: 18rem;
+  padding: 0;
+  max-height: fit-content;
+}
 .card {
-  padding: var(--s1);
-  border: 3px solid var(--appPurple);
+  width: 100%;
+  flex-basis: auto;
+}
+
+.card > a > p,
+.titleCard > a > p {
+  text-transform: uppercase;
+  font-family: 'atyp_semibold';
+  font-size: var(--s6);
+  margin: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .card > a > p {
+    font-size: var(--s4);
+  }
+  .titleCard > a > p {
+    font-size: var(--s4);
+    white-space:pre-wrap;
+  }
 }

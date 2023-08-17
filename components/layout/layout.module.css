@@ -1,17 +1,13 @@
 .layout {
+  display: flex;
   margin: 0;
   padding:var(--s0);
+  flex-flow: column nowrap;
+  gap: var(--s3)
 }
 
 .centered {
   box-sizing: content-box;
   margin-inline: auto;
   max-inline-size: 60rem;
-}
-
-.titleFont {
-  color: var(--appWhite);
-  text-decoration: wavy underline;
-  text-decoration-color: var(--appYellow);
-  text-decoration-thickness: from-font;
 }

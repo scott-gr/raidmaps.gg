@@ -1,9 +1,8 @@
 import styles from './layout.module.css';
 import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../header/Header';
 
-export default function Layout({children, title, raidLink, encounter, description,}) {
+
+export default function Layout({children, title, description,}) {
   return (
     <div className={styles.layout}>
       <Head>
