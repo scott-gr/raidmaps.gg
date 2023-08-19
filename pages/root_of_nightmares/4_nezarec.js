@@ -4,7 +4,7 @@ import Header from '@/components/header/Header';
 export default function Cataclysm() {
   return (
     <Layout title="Nezarec Encounter Map" description={'Destiny 2 raid encounter maps'}>
-      <Header raid="Root of Nightmares" raidLink="/root_of_nightmares" encounter="Nezarec" />
+      <Header raid="Root_of_Nightmares" raidLink="/root_of_nightmares" encounter="nezarec" />
     </Layout>
   );
 }

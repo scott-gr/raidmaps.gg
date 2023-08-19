@@ -1,13 +1,10 @@
-import Layout from '@/components/layout/Layout';
-import Header from '@/components/header/Header';
-import MapImage from '@/components/mapImage/MapImage';
-// import CataclysmMap from '../../assets/maps/root_of_nightmares/cataclysm.webp';
+import EncounterPage from "@/components/encounterPage/EncounterPage";
 
 export default function Cataclysm() {
+  const raid = 'Root of Nightmares';
+  const encounter = 'Cataclysm';
   return (
-    <Layout title="Cataclysm Encounter Map" description={'Destiny 2 raid encounter maps'}>
-      <Header raid="Root_of_Nightmares" raidLink='/root_of_nightmares' encounter="cataclysm" />
-      {/* <MapImage src={CataclysmMap} alt='Cataclysm Encounter Map' /> */}
-    </Layout>
+    <EncounterPage raid={raid} encounter={encounter} >
+    </EncounterPage>
   );
 }

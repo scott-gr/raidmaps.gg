@@ -6,43 +6,57 @@
   text-transform: lowercase;
 }
 
-.raidFont {
-  text-decoration: underline;
+.raidFont,
+.encounterFont {
   text-transform: lowercase;
+}
+
+.linked {
+  text-decoration: underline;
   text-decoration-thickness: from-font;
 }
 
-.raidFont[alt="Last_Wish"] {
+.unlinked {
+  text-decoration: none;
+}
+
+.raidFont[alt='Last Wish'],
+.raidFont[alt='Last Wish'] + span {
   color: var(--appPurple);
   text-decoration-color: var(--appPurple);
 }
-.raidFont[alt="Garden_of_Salvation"] {
+.raidFont[alt='Garden of Salvation'],
+.raidFont[alt='Garden of Salvation'] + span {
   color: var(--appDarkYellow);
   text-decoration-color: var(--appDarkYellow);
 }
-.raidFont[alt="Vault_of_Glass"] {
+.raidFont[alt='Vault of Glass'],
+.raidFont[alt='Vault of Glass'] + span {
   color: var(--appLightBlue);
   text-decoration-color: var(--appLightBlue);
 }
-.raidFont[alt="Deep_Stone_Crypt"] {
+.raidFont[alt='Deep Stone Crypt'],
+.raidFont[alt='Deep Stone Crypt'] + span {
   color: var(--appYellow);
   text-decoration-color: var(--appYellow);
 }
-.raidFont[alt="Root_of_Nightmares"]{
+.raidFont[alt='Root of Nightmares'],
+.raidFont[alt='Root of Nightmares'] + span {
   color: var(--appPink);
   text-decoration-color: var(--appPink);
 }
-.raidFont[alt="Vow_of_the_Disciple"]{
+.raidFont[alt='Vow of the Disciple'],
+.raidFont[alt='Vow of the Disciple'] + span {
   color: var(--appDarkRed);
   text-decoration-color: var(--appDarkRed);
 }
-.raidFont[alt="Kings_Fall"]{
+.raidFont[alt='Kings Fall'],
+.raidFont[alt='Kings Fall'] + span {
   color: var(--appGreen);
   text-decoration-color: var(--appGreen);
 }
-.raidFont[alt="Redacted"]{
+.raidFont[alt='Redacted'],
+.raidFont[alt='Redacted'] + span {
   color: var(--appOrange);
   text-decoration-color: var(--appOrange);
 }
-
-
