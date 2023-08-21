@@ -1,0 +1,206 @@
+{
+  "raids": [
+    {
+      "name": "[REDACTED]",
+      "link": "redacted",
+      "style": "redacted",
+      "encounters": {
+        "1": {
+          "name": "One",
+          "map": ""
+        },
+        "2": {
+          "name": "Two",
+          "map": ""
+        },
+        "3": {
+          "name": "Three",
+          "map": ""
+        },
+        "4": {
+          "name": "Four",
+          "map": ""
+        }
+      }
+    },
+    {
+      "name": "Root of Nightmares",
+      "link": "root_of_nightmares",
+      "style": "ron",
+      "encounters": [
+        {
+          "order": "1",
+          "name": "Cataclysm",
+          "map": ""
+        },
+        {
+          "order": "2",
+          "name": "Scission",
+          "map": ""
+        },
+        {
+          "order": "3",
+          "name": "Macrocosm",
+          "map": ""
+        },
+        {
+          "order": "4",
+          "name": "Nezarec",
+          "map": ""
+        }
+      ]
+    },
+    {
+      "name": "Kings Fall",
+      "link": "kings_fall",
+      "style": "kf",
+      "encounters": [
+        {
+          "order": "1",
+          "name": "Warpriest",
+          "map": ""
+        },
+        {
+          "order": "2",
+          "name": "Golgoroth",
+          "map": ""
+        },
+        {
+          "order": "3",
+          "name": "Daughters",
+          "map": ""
+        },
+        {
+          "order": "4",
+          "name": "Oryx",
+          "map": ""
+        }
+      ]
+    },
+    {
+      "name": "Vow of the Disciple",
+      "link": "vow_of_the_disciple",
+      "style": "votd",
+      "encounters": [
+        {
+          "order": "1",
+          "name": "Acquisition",
+          "map": ""
+        },
+        {
+          "order": "2",
+          "name": "Caretaker",
+          "map": ""
+        },
+        {
+          "order": "3",
+          "name": "Exhibition",
+          "map": ""
+        },
+        {
+          "order": "4",
+          "name": "Rhulk",
+          "map": ""
+        }
+      ]
+    },
+    {
+      "name": "Deep Stone Crypt",
+      "link": "deep_stone_crypt",
+      "style": "dsc",
+      "encounters": [
+        {
+          "order": "1",
+          "name": "Crypt Security",
+          "map": ""
+        },
+        {
+          "order": "2",
+          "name": "Atraks-1",
+          "map": ""
+        },
+        {
+          "order": "3",
+          "name": "Descent",
+          "map": ""
+        },
+        {
+          "order": "4",
+          "name": "Taniks",
+          "map": ""
+        }
+      ]
+    },
+    {
+      "name": "Garden of Salvation",
+      "link": "garden_of_salvation",
+      "style": "gos",
+      "encounters": [
+        {"order": "1", "name": "Consecrated Mind", "map": ""},
+        {
+          "order": "2",
+          "name": "Sanctified Mind",
+          "map": ""
+        }
+      ]
+    },
+    {
+      "name": "Vault of Glass",
+      "link": "vault_of_glass",
+      "style": "vog",
+      "encounters": {
+        "1": {
+          "name": "Confluxes",
+          "map": ""
+        },
+        "2": {
+          "name": "Oracles",
+          "map": ""
+        },
+        "3": {
+          "name": "Templar",
+          "map": ""
+        },
+        "4": {
+          "name": "Gatekeepers",
+          "map": ""
+        },
+        "5": {
+          "name": "Atheon",
+          "map": ""
+        }
+      }
+    },
+    {
+      "name": "Last Wish",
+      "link": "last_wish",
+      "style": "lw",
+      "encounters": {
+        "1": {
+          "name": "Kalli",
+          "map": ""
+        },
+        "2": {
+          "name": "Shuro Chi",
+          "map": ""
+        },
+        "3": {
+          "name": "Morgeth",
+          "map": ""
+        },
+        "4": {
+          "name": "Vault",
+          "map": ""
+        },
+        "5": {
+          "name": "Riven",
+          "map": ""
+        },
+        "6": {
+          "name": "Queenswalk",
+          "map": ""
+        }
+      }
+    }
+  ]
+}
