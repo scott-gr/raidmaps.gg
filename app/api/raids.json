@@ -1,27 +1,27 @@
 {
   "raids": [
     {
-      "name": "[REDACTED]",
-      "link": "redacted",
-      "style": "redacted",
-      "encounters": {
-        "1": {
-          "name": "One",
+      "name": "Crota's End",
+      "link": "crotas_end",
+      "style": "ce",
+      "encounters": [
+        {
+          "name": "Abyss",
           "map": ""
         },
-        "2": {
-          "name": "Two",
+        {
+          "name": "Bridge",
           "map": ""
         },
-        "3": {
-          "name": "Three",
+        {
+          "name": "Ir Yut",
           "map": ""
         },
-        "4": {
-          "name": "Four",
+        {
+          "name": "Crota",
           "map": ""
         }
-      }
+      ]
     },
     {
       "name": "Root of Nightmares",
@@ -29,50 +29,50 @@
       "style": "ron",
       "encounters": [
         {
-          "order": "1",
           "name": "Cataclysm",
-          "map": ""
+          "link": "cataclysm",
+          "map": "../assets/maps/root_of_nightmares/cataclysm.png"
         },
         {
-          "order": "2",
           "name": "Scission",
+          "link": "scission",
           "map": ""
         },
         {
-          "order": "3",
           "name": "Macrocosm",
+          "link": "macrocosm",
           "map": ""
         },
         {
-          "order": "4",
           "name": "Nezarec",
+          "link": "nezarec",
           "map": ""
         }
       ]
     },
     {
-      "name": "Kings Fall",
+      "name": "King's Fall",
       "link": "kings_fall",
       "style": "kf",
       "encounters": [
         {
-          "order": "1",
           "name": "Warpriest",
+          "link": "warpriest",
           "map": ""
         },
         {
-          "order": "2",
           "name": "Golgoroth",
+          "link": "golgoroth",
           "map": ""
         },
         {
-          "order": "3",
           "name": "Daughters",
+          "link": "daughters",
           "map": ""
         },
         {
-          "order": "4",
           "name": "Oryx",
+          "link": "oryx",
           "map": ""
         }
       ]
@@ -83,22 +83,18 @@
       "style": "votd",
       "encounters": [
         {
-          "order": "1",
           "name": "Acquisition",
           "map": ""
         },
         {
-          "order": "2",
           "name": "Caretaker",
           "map": ""
         },
         {
-          "order": "3",
           "name": "Exhibition",
           "map": ""
         },
         {
-          "order": "4",
           "name": "Rhulk",
           "map": ""
         }
@@ -110,22 +106,19 @@
       "style": "dsc",
       "encounters": [
         {
-          "order": "1",
           "name": "Crypt Security",
+          "link": "crypt_security",
           "map": ""
         },
         {
-          "order": "2",
           "name": "Atraks-1",
           "map": ""
         },
         {
-          "order": "3",
           "name": "Descent",
           "map": ""
         },
         {
-          "order": "4",
           "name": "Taniks",
           "map": ""
         }
@@ -136,9 +129,8 @@
       "link": "garden_of_salvation",
       "style": "gos",
       "encounters": [
-        {"order": "1", "name": "Consecrated Mind", "map": ""},
+        {"name": "Consecrated Mind", "map": ""},
         {
-          "order": "2",
           "name": "Sanctified Mind",
           "map": ""
         }
@@ -148,59 +140,59 @@
       "name": "Vault of Glass",
       "link": "vault_of_glass",
       "style": "vog",
-      "encounters": {
-        "1": {
+      "encounters": [
+        {
           "name": "Confluxes",
           "map": ""
         },
-        "2": {
+        {
           "name": "Oracles",
           "map": ""
         },
-        "3": {
+        {
           "name": "Templar",
           "map": ""
         },
-        "4": {
+        {
           "name": "Gatekeepers",
           "map": ""
         },
-        "5": {
+        {
           "name": "Atheon",
           "map": ""
         }
-      }
+      ]
     },
     {
       "name": "Last Wish",
       "link": "last_wish",
       "style": "lw",
-      "encounters": {
-        "1": {
+      "encounters": [
+        {
           "name": "Kalli",
           "map": ""
         },
-        "2": {
+        {
           "name": "Shuro Chi",
           "map": ""
         },
-        "3": {
+        {
           "name": "Morgeth",
           "map": ""
         },
-        "4": {
+        {
           "name": "Vault",
           "map": ""
         },
-        "5": {
+        {
           "name": "Riven",
           "map": ""
         },
-        "6": {
+        {
           "name": "Queenswalk",
           "map": ""
         }
-      }
+      ]
     }
   ]
 }

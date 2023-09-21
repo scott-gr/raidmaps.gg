@@ -6,6 +6,7 @@ export function lowerCase(string) {
 }
 
 export default function RaidPage({params}) {
+
   const {raid} = params;
   const filteredRaid = raids.raids.find(r => r.link === raid);
 
@@ -13,5 +14,9 @@ export default function RaidPage({params}) {
     return <Card key={encounter.id} text={encounter.name} link={raid + '/' + lowerCase(encounter.name)}></Card>;
   });
 
-  return <>{encounterList}</>;
+  return (
+    <>
+      {encounterList}
+    </>
+  );
 }
