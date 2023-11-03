@@ -1,0 +1,6 @@
+.mapContainer {
+  --n: 5;
+  --d: 3;
+  aspect-ratio: var(--n) / var(--d);
+  position:relative;
+}

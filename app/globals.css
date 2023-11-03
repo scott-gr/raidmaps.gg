@@ -58,6 +58,7 @@ html {
 }
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -90,4 +91,21 @@ h1 {
   padding:var(--s0);
   flex-flow: column nowrap;
   gap: var(--s3)
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1);
+  justify-content: left;
+  box-sizing: content-box;
+  width: 100%;
+}main > * {
+  flex-grow: 1;
+  justify-content: left;
+}
+
+@media (max-width: 480px) {main {
+    gap: 0;
+  }
 }

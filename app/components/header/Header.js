@@ -16,15 +16,11 @@ export default function Header() {
   );
   const raidTitle = (
     <Link className={styles.raidFont} href={'/' + raid} alt={raid}>
-      {raid}
+      / {raid}
     </Link>
   );
 
-  const encounterTitle = (
-    <span >
-      {encounter}
-    </span>
-  );
+  const encounterTitle = <span>/ {encounter}</span>;
 
   return (
     <h1>

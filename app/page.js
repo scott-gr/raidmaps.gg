@@ -1,4 +1,4 @@
-import CardList from '@/app/components/cardList/CardList';
+import NameList from '@/app/components/nameList/NameList';
 import styles from './page.module.css';
 import TitleCard from '@/app/components/card/TitleCard';
 import raids from '@/app/api/raids.json';
@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <CardList>{raidList}</CardList>
+      <NameList>{raidList}</NameList>
     </>
   );
 }
