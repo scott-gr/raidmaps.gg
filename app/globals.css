@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'atyp_reg';
+  src: url('./assets/fonts/atypdisplay-regular-webfont.woff2') format('woff2'),
+    url('./assets/fonts/atypdisplay-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'atyp_semibold';
+  src: url('./assets/fonts/atypdisplay-semibold-webfont.woff2') format('woff2'),
+    url('./assets/fonts/atypdisplay-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --appPurple: #936ce7;
+  --appPink: #bf82bb;
+  --appBlack: #151515;
+  --appRed: #e65134;
+  --appOrange: #dc6044;
+  --appDarkRed: #652712;
+  --appYellow: #fdf25e;
+  --appDarkYellow: #d5ad65;
+  --appLightBlue: #92bacf;
+  --appGreen: #8ab99c;
+  --appWhite: #efefef;
+  --appBeige: #faf2e9;
+  font-display: optional;
+  --ratio: 1.2;
+  --s-6: calc(var(--s-5) / var(--ratio));
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+  --s6: calc(var(--s5) * var(--ratio));
+  /* prevents unintentional selection on mobile */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  background-color: var(--appBlack);
+  color: var(--appBeige);
+  font-family: atyp_reg;
+  font-size: var(--s1);
+  font-weight: 400;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: var(--s3);
+  font-family: atyp_reg;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: var(--s2);
+  }
+}
+.layout {
+  display: flex;
+  margin: 0;
+  padding:var(--s0);
+  flex-flow: column nowrap;
+  gap: var(--s3)
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-1);
+  justify-content: left;
+  box-sizing: content-box;
+  width: 100%;
+}main > * {
+  flex-grow: 1;
+  justify-content: left;
+}
+
+@media (max-width: 480px) {main {
+    gap: 0;
+  }
+}
