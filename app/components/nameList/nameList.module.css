@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   gap: var(--s-1);
   justify-content: left;
-  box-sizing: content-box;
   max-inline-size: 70rem;
   width: 100%;
 }

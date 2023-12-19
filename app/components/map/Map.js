@@ -3,7 +3,6 @@ import styles from './map.module.css';
 
 const imgStyle = {
   objectFit: 'contain',
-  maxHeight: '82%',
 }
 
 export default function Map({src, alt}) {

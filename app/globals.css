@@ -58,9 +58,10 @@ html {
 }
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-inline: 1rem;
 }
 button {
   cursor: pointer;
@@ -98,7 +99,6 @@ main {
   flex-wrap: wrap;
   gap: var(--s-1);
   justify-content: left;
-  box-sizing: content-box;
   width: 100%;
 }main > * {
   flex-grow: 1;
