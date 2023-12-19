@@ -18,7 +18,6 @@ export const metadata = {
     url: 'https://raidmaps.gg',
     siteName: 'RaidMaps.gg',
     locale: 'en_US',
-    image: '../assets/logos/raidmaps-logo.png',
   },
 };
 
