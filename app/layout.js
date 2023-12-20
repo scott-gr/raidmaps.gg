@@ -4,6 +4,12 @@ import Header from './components/header/Header';
 
 export const metadata = {
   metadataBase: new URL('https://raidmaps.gg'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   title: {
     template: '%s | raidmaps.gg',
     default: 'raidmaps.gg',
