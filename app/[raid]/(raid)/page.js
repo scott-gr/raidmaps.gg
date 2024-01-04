@@ -11,7 +11,7 @@ export default function RaidPage({params}) {
   const filteredRaid = raids.raids.find(r => r.link === raid);
 
   const encounterList = filteredRaid.encounters.map(encounter => {
-    return <Card key={encounter.id} text={encounter.name} link={raid + '/' + lowerCase(encounter.name)}></Card>;
+    return <Card key={encounter.id} text={encounter.name} link={raid + '/' + encounter.link}></Card>;
   });
 
   return (

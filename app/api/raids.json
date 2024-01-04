@@ -17,10 +17,12 @@
         },
         {
           "name": "Ir Yut",
+          "link": "ir_yut",
           "map": ""
         },
         {
           "name": "Crota",
+          "link": "crota",
           "map": ""
         }
       ]
@@ -86,18 +88,22 @@
       "encounters": [
         {
           "name": "Acquisition",
+          "link": "acquisition",
           "map": ""
         },
         {
           "name": "Caretaker",
+          "link": "caretaker",
           "map": ""
         },
         {
           "name": "Exhibition",
+          "link": "exhibition",
           "map": ""
         },
         {
           "name": "Rhulk",
+          "link": "rhulk",
           "map": ""
         }
       ]
@@ -114,14 +120,17 @@
         },
         {
           "name": "Atraks-1",
+          "link": "atraks-1",
           "map": ""
         },
         {
           "name": "Descent",
+          "link": "descent",
           "map": ""
         },
         {
           "name": "Taniks",
+          "link": "taniks",
           "map": ""
         }
       ]
@@ -131,9 +140,12 @@
       "link": "garden_of_salvation",
       "style": "gos",
       "encounters": [
-        {"name": "Consecrated Mind", "map": ""},
+        {"name": "Consecrated Mind",
+        "link": "consecrated_mind",
+         "map": ""},
         {
           "name": "Sanctified Mind",
+          "link": "sanctified_mind",
           "map": ""
         }
       ]
@@ -145,22 +157,27 @@
       "encounters": [
         {
           "name": "Confluxes",
+          "link": "confluxes",
           "map": ""
         },
         {
           "name": "Oracles",
+          "link": "oracles",
           "map": ""
         },
         {
           "name": "Templar",
+          "link": "templar",
           "map": ""
         },
         {
-          "name": "Gatekeepers",
+          "name": "Gatekeeper",
+          "link": "gatekeeper",
           "map": ""
         },
         {
           "name": "Atheon",
+          "link": "atheon",
           "map": ""
         }
       ]
@@ -172,26 +189,32 @@
       "encounters": [
         {
           "name": "Kalli",
+          "link": "kalli",
           "map": ""
         },
         {
           "name": "Shuro Chi",
+          "link": "shuro_chi",
           "map": ""
         },
         {
           "name": "Morgeth",
+          "link": "morgeth",
           "map": ""
         },
         {
           "name": "Vault",
+          "link": "vault",
           "map": ""
         },
         {
           "name": "Riven",
+          "link": "riven",
           "map": ""
         },
         {
           "name": "Queenswalk",
+          "link": "queenswalk",
           "map": ""
         }
       ]
