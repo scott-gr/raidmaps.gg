@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <>
-         <NameList>{raidList}</NameList>
+      <NameList>{raidList}</NameList>
     </>
   );
 }
