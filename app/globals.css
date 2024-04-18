@@ -1,14 +1,16 @@
 @font-face {
-  font-family: 'atyp_reg';
-  src: url('./assets/fonts/atypdisplay-regular-webfont.woff2') format('woff2'),
-    url('./assets/fonts/atypdisplay-regular-webfont.woff') format('woff');
+  font-family: "atyp_reg";
+  src:
+    url("./assets/fonts/atypdisplay-regular-webfont.woff2") format("woff2"),
+    url("./assets/fonts/atypdisplay-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'atyp_semibold';
-  src: url('./assets/fonts/atypdisplay-semibold-webfont.woff2') format('woff2'),
-    url('./assets/fonts/atypdisplay-semibold-webfont.woff') format('woff');
+  font-family: "atyp_semibold";
+  src:
+    url("./assets/fonts/atypdisplay-semibold-webfont.woff2") format("woff2"),
+    url("./assets/fonts/atypdisplay-semibold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -89,9 +91,9 @@ h1 {
 .layout {
   display: flex;
   margin: 0;
-  padding:var(--s0);
+  padding: var(--s0);
   flex-flow: column nowrap;
-  gap: var(--s3)
+  gap: var(--s3);
 }
 
 main {
@@ -100,12 +102,14 @@ main {
   gap: var(--s-1);
   justify-content: left;
   width: 100%;
-}main > * {
+}
+main > * {
   flex-grow: 1;
   justify-content: left;
 }
 
-@media (max-width: 480px) {main {
+@media (max-width: 480px) {
+  main {
     gap: 0;
   }
 }

@@ -20,43 +20,48 @@
   text-decoration: none;
 }
 
-.raidFont[alt='last_wish'],
-.raidFont[alt='last_wish'] + span {
+.raidFont[alt="last_wish"],
+.raidFont[alt="last_wish"] + span {
   color: var(--appPurple);
   text-decoration-color: var(--appPurple);
 }
-.raidFont[alt='garden_of_salvation'],
-.raidFont[alt='garden_of_salvation'] + span {
+.raidFont[alt="garden_of_salvation"],
+.raidFont[alt="garden_of_salvation"] + span {
   color: var(--appDarkYellow);
   text-decoration-color: var(--appDarkYellow);
 }
-.raidFont[alt='vault_of_glass'],
-.raidFont[alt='vault_of_glass'] + span {
+.raidFont[alt="vault_of_glass"],
+.raidFont[alt="vault_of_glass"] + span {
   color: var(--appLightBlue);
   text-decoration-color: var(--appLightBlue);
 }
-.raidFont[alt='deep_stone_crypt'],
-.raidFont[alt='deep_stone_crypt'] + span {
+.raidFont[alt="deep_stone_crypt"],
+.raidFont[alt="deep_stone_crypt"] + span {
   color: var(--appYellow);
   text-decoration-color: var(--appYellow);
 }
-.raidFont[alt='root_of_nightmares'],
-.raidFont[alt='root_of_nightmares'] + span {
+.raidFont[alt="root_of_nightmares"],
+.raidFont[alt="root_of_nightmares"] + span {
   color: var(--appPink);
   text-decoration-color: var(--appPink);
 }
-.raidFont[alt='vow_of_the_disciple'],
-.raidFont[alt='vow_of_the_disciple'] + span {
+.raidFont[alt="vow_of_the_disciple"],
+.raidFont[alt="vow_of_the_disciple"] + span {
   color: var(--appDarkRed);
   text-decoration-color: var(--appDarkRed);
 }
-.raidFont[alt='kings_fall'],
-.raidFont[alt='kings_fall'] + span {
+.raidFont[alt="kings_fall"],
+.raidFont[alt="kings_fall"] + span {
   color: var(--appGreen);
   text-decoration-color: var(--appGreen);
 }
-.raidFont[alt='crotas_end'],
-.raidFont[alt='crotas_end'] + span {
+.raidFont[alt="crotas_end"],
+.raidFont[alt="crotas_end"] + span {
   color: var(--appOrange);
   text-decoration-color: var(--appOrange);
+}
+.raidFont[alt="pantheon"],
+.raidFont[alt="pantheon"] + span {
+  color: var(--appWhite);
+  text-decoration-color: var(--appWhite);
 }
