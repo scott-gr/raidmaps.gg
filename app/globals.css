@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "atyp_reg";
+  font-family: 'atyp_reg';
   src:
-    url("./assets/fonts/atypdisplay-regular-webfont.woff2") format("woff2"),
-    url("./assets/fonts/atypdisplay-regular-webfont.woff") format("woff");
+    url('./assets/fonts/atypdisplay-regular-webfont.woff2') format('woff2'),
+    url('./assets/fonts/atypdisplay-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "atyp_semibold";
+  font-family: 'atyp_semibold';
   src:
-    url("./assets/fonts/atypdisplay-semibold-webfont.woff2") format("woff2"),
-    url("./assets/fonts/atypdisplay-semibold-webfont.woff") format("woff");
+    url('./assets/fonts/atypdisplay-semibold-webfont.woff2') format('woff2'),
+    url('./assets/fonts/atypdisplay-semibold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

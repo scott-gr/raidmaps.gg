@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import styles from './header.module.css';
-import {useParams} from 'next/navigation';
+import { useParams } from 'next/navigation';
 
 export default function Header() {
   const params = useParams();
@@ -15,9 +15,14 @@ export default function Header() {
     </Link>
   );
   const raidTitle = (
-    <Link className={styles.raidFont} href={'/' + raid} alt={raid}>
-      / {raid}
-    </Link>
+    <>
+      <span className={styles.slashRaid} data-raid={raid}>
+        /{' '}
+      </span>
+      <Link className={styles.raidFont} href={'/' + raid} alt={raid}>
+        {raid}
+      </Link>
+    </>
   );
 
   const encounterTitle = <span>/ {encounter}</span>;
