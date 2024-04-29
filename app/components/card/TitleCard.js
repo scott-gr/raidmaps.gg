@@ -1,7 +1,7 @@
-import styles from './card.module.css';
-import Link from 'next/link';
+import styles from "./card.module.css";
+import Link from "next/link";
 
-export default function Card({text, link, raidstyle}) {
+export default function TitleCard({ text, link, raidstyle }) {
   return (
     <div className={`${styles.titleCard} ${raidstyle}`}>
       <Link href={link}>

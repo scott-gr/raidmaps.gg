@@ -1,3 +1,3 @@
-export default function EnconterLayout({children}) {
+export default function EncounterLayout({ children }) {
   return <main>{children}</main>;
 }

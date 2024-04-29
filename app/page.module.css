@@ -2,30 +2,41 @@
 .kf {
   color: var(--appGreen);
 }
-.ron{
+.ron {
   color: var(--appPink);
 }
 .lw {
-  color:var(--appPurple);
+  color: var(--appPurple);
 }
 .vog {
   color: var(--appLightBlue);
 }
 .dsc {
-  color:var(--appYellow);
+  color: var(--appYellow);
 }
-.votd{
-  color: var(--appDarkRed) ;
+.votd {
+  color: var(--appDarkRed);
 }
 .gos {
-  color: var(--appDarkYellow)
+  color: var(--appDarkYellow);
 }
 .ce {
   color: var(--appOrange);
 }
+.pan {
+  color: var(--appWhite);
+}
 
 @media (max-width: 480px) {
-  .gos > a > p, .dsc, .kf, .lw, .redacted, .ron, .vog, .votd {
+  .gos > a > p,
+  .dsc,
+  .kf,
+  .lw,
+  .redacted,
+  .ron,
+  .vog,
+  .votd,
+  .pan {
     font-size: var(--s2);
   }
 }

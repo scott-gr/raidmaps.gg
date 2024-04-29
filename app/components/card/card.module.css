@@ -1,6 +1,6 @@
 .card,
 .titleCard {
-  flex-basis: 18rem;
+  flex-basis: 30rem;
   padding: 0;
   max-height: fit-content;
 }
@@ -12,10 +12,14 @@
 .card > a > p,
 .titleCard > a > p {
   text-transform: uppercase;
-  font-family: 'atyp_semibold';
+  font-family: "atyp_semibold";
   font-size: var(--s6);
   margin: 0;
   white-space: nowrap;
+}
+.titleCard > a[href="pantheon"] > p {
+  font-size: 5rem;
+  text-decoration: var(--appWhite) dotted underline;
 }
 
 @media (max-width: 480px) {
@@ -24,6 +28,9 @@
   }
   .titleCard > a > p {
     font-size: var(--s4);
-    white-space:pre-wrap;
+    white-space: pre-wrap;
+  }
+  .titleCard > a[href="pantheon"] > p {
+    font-size: 3rem;
   }
 }

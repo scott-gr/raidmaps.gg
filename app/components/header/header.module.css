@@ -21,42 +21,61 @@
 }
 
 .raidFont[alt='last_wish'],
-.raidFont[alt='last_wish'] + span {
+.raidFont[alt='last_wish'] + span,
+.slashRaid[data-raid='last_wish'] {
   color: var(--appPurple);
   text-decoration-color: var(--appPurple);
 }
 .raidFont[alt='garden_of_salvation'],
-.raidFont[alt='garden_of_salvation'] + span {
+.raidFont[alt='garden_of_salvation'] + span,
+.slashRaid[data-raid='garden_of_salvation'] {
   color: var(--appDarkYellow);
   text-decoration-color: var(--appDarkYellow);
 }
 .raidFont[alt='vault_of_glass'],
-.raidFont[alt='vault_of_glass'] + span {
+.raidFont[alt='vault_of_glass'] + span,
+.slashRaid[data-raid='vault_of_glass'] {
   color: var(--appLightBlue);
   text-decoration-color: var(--appLightBlue);
 }
 .raidFont[alt='deep_stone_crypt'],
-.raidFont[alt='deep_stone_crypt'] + span {
+.raidFont[alt='deep_stone_crypt'] + span,
+.slashRaid[data-raid='deep_stone_crypt'] {
   color: var(--appYellow);
   text-decoration-color: var(--appYellow);
 }
 .raidFont[alt='root_of_nightmares'],
-.raidFont[alt='root_of_nightmares'] + span {
+.raidFont[alt='root_of_nightmares'] + span,
+.slashRaid[data-raid='root_of_nightmares'] {
   color: var(--appPink);
   text-decoration-color: var(--appPink);
 }
 .raidFont[alt='vow_of_the_disciple'],
-.raidFont[alt='vow_of_the_disciple'] + span {
+.raidFont[alt='vow_of_the_disciple'] + span,
+.slashRaid[data-raid='vow_of_the_disciple'] {
   color: var(--appDarkRed);
   text-decoration-color: var(--appDarkRed);
 }
 .raidFont[alt='kings_fall'],
-.raidFont[alt='kings_fall'] + span {
+.raidFont[alt='kings_fall'] + span,
+.slashRaid[data-raid='kings_fall'] {
   color: var(--appGreen);
   text-decoration-color: var(--appGreen);
 }
 .raidFont[alt='crotas_end'],
-.raidFont[alt='crotas_end'] + span {
+.raidFont[alt='crotas_end'] + span,
+.slashRaid[data-raid='crotas_end'] {
   color: var(--appOrange);
   text-decoration-color: var(--appOrange);
+}
+.raidFont[alt='pantheon'],
+.raidFont[alt='pantheon'] + span {
+  color: var(--appWhite);
+  text-decoration: var(--appWhite) dotted underline;
+}
+
+.raidFont[alt='pantheon'] + span,
+.slashRaid[data-raid='pantheon'] {
+  color: var(--appWhite);
+  text-decoration: none;
 }
