@@ -10,7 +10,7 @@ export default function Map({ src, alt }) {
   return (
     <div className={styles.mapContainer}>
       <Image
-        formats={['image/webp']}
+        formats={['image/svg']}
         priority
         src={src}
         alt={alt}
