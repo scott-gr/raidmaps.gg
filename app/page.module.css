@@ -23,8 +23,8 @@
 .ce {
   color: var(--appOrange);
 }
-.pan {
-  color: var(--appWhite);
+.se {
+  color: var(--appBlue);
 }
 
 @media (max-width: 480px) {
@@ -36,7 +36,8 @@
   .ron,
   .vog,
   .votd,
-  .pan {
+  /* .pan, */
+  .se {
     font-size: var(--s2);
   }
 }
