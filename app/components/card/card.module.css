@@ -12,14 +12,14 @@
 .card > a > p,
 .titleCard > a > p {
   text-transform: uppercase;
-  font-family: "atyp_semibold";
+  font-family: 'atyp_semibold';
   font-size: var(--s6);
   margin: 0;
   white-space: nowrap;
 }
-.titleCard > a[href="pantheon"] > p {
-  font-size: 5rem;
-  text-decoration: var(--appWhite) dotted underline;
+.titleCard > a[href='salvations_edge'] > p {
+  /* font-size: 4rem; */
+  text-decoration: var(--appBlue) dotted underline;
 }
 
 @media (max-width: 480px) {
@@ -30,7 +30,7 @@
     font-size: var(--s4);
     white-space: pre-wrap;
   }
-  .titleCard > a[href="pantheon"] > p {
+  /* .titleCard > a[href='salvations_edge'] > p {
     font-size: 3rem;
-  }
+  } */
 }

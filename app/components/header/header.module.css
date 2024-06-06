@@ -68,14 +68,14 @@
   color: var(--appOrange);
   text-decoration-color: var(--appOrange);
 }
-.raidFont[alt='pantheon'],
-.raidFont[alt='pantheon'] + span {
-  color: var(--appWhite);
-  text-decoration: var(--appWhite) dotted underline;
+.raidFont[alt='salvations_edge'],
+.raidFont[alt='salvattions_edge'] + span {
+  color: var(--appBlue);
+  text-decoration: var(--appBlue) dotted underline;
 }
 
-.raidFont[alt='pantheon'] + span,
+/* .raidFont[alt='pantheon'] + span,
 .slashRaid[data-raid='pantheon'] {
   color: var(--appWhite);
   text-decoration: none;
-}
+} */
