@@ -71,11 +71,11 @@
 .raidFont[alt='salvations_edge'],
 .raidFont[alt='salvattions_edge'] + span {
   color: var(--appBlue);
-  text-decoration: var(--appBlue) dotted underline;
+  text-decoration-color: var(--appBlue);
 }
 
-/* .raidFont[alt='pantheon'] + span,
-.slashRaid[data-raid='pantheon'] {
+.raidFont[alt='the_desert_perpetual'] + span,
+.slashRaid[data-raid='the_desert_perpetual'] {
   color: var(--appWhite);
-  text-decoration: none;
-} */
+  text-decoration-color: var(--appWhite);
+}

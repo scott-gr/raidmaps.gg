@@ -26,6 +26,9 @@
 .se {
   color: var(--appBlue);
 }
+.tdp {
+  color: var(--appWhite);
+}
 
 @media (max-width: 480px) {
   .gos > a > p,
@@ -36,7 +39,8 @@
   .ron,
   .vog,
   .votd,
-  /* .pan, */
+  .pan,
+  .tdp,
   .se {
     font-size: var(--s2);
   }

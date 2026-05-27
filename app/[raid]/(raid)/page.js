@@ -6,7 +6,7 @@ export function lowerCase(string) {
 }
 
 export async function generateMetadata({ params }) {
-  const { raid } = params;
+  const { raid } = await params;
   const filteredRaid = raids.raids.find((r) => r.link === raid);
 
   return {
@@ -21,9 +21,13 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function RaidPage({ params }) {
-  const { raid } = params;
+export default async function RaidPage({ params }) {
+  const { raid } = await params;
   const filteredRaid = raids.raids.find((r) => r.link === raid);
+
+  if (!filteredRaid) {
+    return <div>Raid not found</div>;
+  }
 
   const encounterList = filteredRaid.encounters.map((encounter) => {
     return (

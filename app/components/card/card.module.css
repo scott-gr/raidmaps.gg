@@ -17,10 +17,10 @@
   margin: 0;
   white-space: nowrap;
 }
-.titleCard > a[href='salvations_edge'] > p {
+/* .titleCard > a[href='pantheon'] > p {
   /* font-size: 4rem; */
-  text-decoration: var(--appBlue) dotted underline;
-}
+/* text-decoration: var(--appWhite) dotted underline; */
+/* } */
 
 @media (max-width: 480px) {
   .card > a > p {

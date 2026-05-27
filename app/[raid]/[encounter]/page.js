@@ -2,10 +2,10 @@ import raids from '@/app/api/raids.json';
 import Map from '@/app/components/map/Map';
 
 export async function generateMetadata({ params }) {
-  const { raid, encounter } = params;
+  const { raid, encounter } = await params;
   const filteredRaid = raids.raids.find((r) => r.link === raid);
   const filteredEncounter = filteredRaid.encounters.find(
-    (e) => e.link === encounter
+    (e) => e.link === encounter,
   );
   return {
     title: filteredEncounter.name + ' map',
@@ -24,11 +24,11 @@ export async function generateMetadata({ params }) {
     },
   };
 }
-export default function EncounterPage({ params }) {
-  const { raid, encounter } = params;
+export default async function EncounterPage({ params }) {
+  const { raid, encounter } = await params;
   const filteredRaid = raids.raids.find((r) => r.link === raid);
   const filteredEncounter = filteredRaid.encounters.find(
-    (e) => e.link === encounter
+    (e) => e.link === encounter,
   );
   const map = filteredEncounter.map;
 
@@ -36,7 +36,8 @@ export default function EncounterPage({ params }) {
     <>
       {map === '' ? (
         <div>
-          The {filteredEncounter.name} encounter map is still in development{' '}
+          The {filteredEncounter.name} encounter map is still in
+          development{' '}
         </div>
       ) : (
         <Map src={map} alt={filteredEncounter.name} />

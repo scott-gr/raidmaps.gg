@@ -1,39 +1,33 @@
 {
   "raids": [
     {
+      "name": "The Desert Perpetual",
+      "game": "destiny_2",
+      "link": "the_desert_perpetual",
+      "style": "tdp",
+      "encounters": [
+        { "name": "Epoptes", "link": "epoptes", "map": "" },
+        { "name": "Agraios", "link": "agraios", "map": "" },
+        { "name": "Iatros", "link": "iatros", "map": "" },
+        { "name": "Koregos", "link": "koregos", "map": "" }
+      ]
+    },
+    {
       "name": "Salvation's Edge",
+      "game": "destiny_2",
       "link": "salvations_edge",
       "style": "se",
       "encounters": [
-        {
-          "name": "Substratum",
-          "link": "substratum",
-          "map": ""
-        },
-        {
-          "name": "Herald",
-          "link": "herald",
-          "map": ""
-        },
-        {
-          "name": "Repository",
-          "link": "repository",
-          "map": ""
-        },
-        {
-          "name": "Verity",
-          "link": "verity",
-          "map": "/maps/se.verity.svg"
-        },
-        {
-          "name": "Witness",
-          "link": "witness",
-          "map": "/maps/se.witness.svg"
-        }
+        { "name": "Substratum", "link": "substratum", "map": "" },
+        { "name": "Herald", "link": "herald", "map": "" },
+        { "name": "Repository", "link": "repository", "map": "" },
+        { "name": "Verity", "link": "verity", "map": "/maps/se.verity.svg" },
+        { "name": "Witness", "link": "witness", "map": "/maps/se.witness.svg" }
       ]
     },
     {
       "name": "Crota's End",
+      "game": "destiny_2",
       "link": "crotas_end",
       "style": "ce",
       "encounters": [
@@ -61,6 +55,7 @@
     },
     {
       "name": "Root of Nightmares",
+      "game": "destiny_2",
       "link": "root_of_nightmares",
       "style": "ron",
       "encounters": [
@@ -88,87 +83,55 @@
     },
     {
       "name": "King's Fall",
+      "game": "destiny_2",
       "link": "kings_fall",
       "style": "kf",
       "encounters": [
-        {
-          "name": "Warpriest",
-          "link": "warpriest",
-          "map": ""
-        },
+        { "name": "Warpriest", "link": "warpriest", "map": "" },
         {
           "name": "Golgoroth",
           "link": "golgoroth",
           "map": "/maps/kf.golgoroth.svg"
         },
-        {
-          "name": "Daughters",
-          "link": "daughters",
-          "map": ""
-        },
-        {
-          "name": "Oryx",
-          "link": "oryx",
-          "map": "/maps/kf.oryx.svg"
-        }
+        { "name": "Daughters", "link": "daughters", "map": "" },
+        { "name": "Oryx", "link": "oryx", "map": "/maps/kf.oryx.svg" }
       ]
     },
     {
       "name": "Vow of the Disciple",
+      "game": "destiny_2",
       "link": "vow_of_the_disciple",
       "style": "votd",
       "encounters": [
-        {
-          "name": "Acquisition",
-          "link": "acquisition",
-          "map": ""
-        },
+        { "name": "Acquisition", "link": "acquisition", "map": "" },
         {
           "name": "Caretaker",
           "link": "caretaker",
           "map": "/maps/votd.caretaker.svg"
         },
-        {
-          "name": "Exhibition",
-          "link": "exhibition",
-          "map": ""
-        },
-        {
-          "name": "Rhulk",
-          "link": "rhulk",
-          "map": "/maps/votd.rhulk.svg"
-        }
+        { "name": "Exhibition", "link": "exhibition", "map": "" },
+        { "name": "Rhulk", "link": "rhulk", "map": "/maps/votd.rhulk.svg" }
       ]
     },
     {
       "name": "Deep Stone Crypt",
+      "game": "destiny_2",
       "link": "deep_stone_crypt",
       "style": "dsc",
       "encounters": [
-        {
-          "name": "Crypt Security",
-          "link": "crypt_security",
-          "map": ""
-        },
+        { "name": "Crypt Security", "link": "crypt_security", "map": "" },
         {
           "name": "Atraks-1",
           "link": "atraks-1",
           "map": "/maps/dsc.atraks-1.svg"
         },
-        {
-          "name": "Descent",
-          "link": "descent",
-          "map": ""
-        },
-        {
-          "name": "Taniks",
-          "link": "taniks",
-          "map": ""
-        }
+        { "name": "Descent", "link": "descent", "map": "" },
+        { "name": "Taniks", "link": "taniks", "map": "" }
       ]
     },
     {
       "name": "Garden of Salvation",
+      "game": "destiny_2",
       "link": "garden_of_salvation",
       "style": "gos",
       "encounters": [
@@ -196,71 +159,29 @@
     },
     {
       "name": "Vault of Glass",
+      "game": "destiny_2",
       "link": "vault_of_glass",
       "style": "vog",
       "encounters": [
-        {
-          "name": "Confluxes",
-          "link": "confluxes",
-          "map": ""
-        },
-        {
-          "name": "Oracles",
-          "link": "oracles",
-          "map": ""
-        },
-        {
-          "name": "Templar",
-          "link": "templar",
-          "map": ""
-        },
-        {
-          "name": "Gatekeeper",
-          "link": "gatekeeper",
-          "map": ""
-        },
-        {
-          "name": "Atheon",
-          "link": "atheon",
-          "map": ""
-        }
+        { "name": "Confluxes", "link": "confluxes", "map": "" },
+        { "name": "Oracles", "link": "oracles", "map": "" },
+        { "name": "Templar", "link": "templar", "map": "" },
+        { "name": "Gatekeeper", "link": "gatekeeper", "map": "" },
+        { "name": "Atheon", "link": "atheon", "map": "" }
       ]
     },
     {
       "name": "Last Wish",
+      "game": "destiny_2",
       "link": "last_wish",
       "style": "lw",
       "encounters": [
-        {
-          "name": "Kalli",
-          "link": "kalli",
-          "map": ""
-        },
-        {
-          "name": "Shuro Chi",
-          "link": "shuro_chi",
-          "map": ""
-        },
-        {
-          "name": "Morgeth",
-          "link": "morgeth",
-          "map": ""
-        },
-        {
-          "name": "Vault",
-          "link": "vault",
-          "map": ""
-        },
-        {
-          "name": "Riven",
-          "link": "riven",
-          "map": ""
-        },
-        {
-          "name": "Queenswalk",
-          "link": "queenswalk",
-          "map": ""
-        }
+        { "name": "Kalli", "link": "kalli", "map": "" },
+        { "name": "Shuro Chi", "link": "shuro_chi", "map": "" },
+        { "name": "Morgeth", "link": "morgeth", "map": "" },
+        { "name": "Vault", "link": "vault", "map": "" },
+        { "name": "Riven", "link": "riven", "map": "" },
+        { "name": "Queenswalk", "link": "queenswalk", "map": "" }
       ]
     }
   ]
