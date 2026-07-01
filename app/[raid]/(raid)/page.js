@@ -32,7 +32,7 @@ export default async function RaidPage({ params }) {
   const encounterList = filteredRaid.encounters.map((encounter) => {
     return (
       <Card
-        key={encounter.id}
+        key={encounter.name}
         text={encounter.name}
         link={raid + '/' + encounter.link}
       ></Card>
